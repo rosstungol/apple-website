@@ -16,7 +16,7 @@ const VideoCarousel = () => {
 
   const { isEnd, isLastVideo, startPlay, videoId, isPLaying } = video
 
-  useEffect(() => {}, [])
+  useEffect(() => {}, [videoId, startPlay])
 
   return (
     <>
